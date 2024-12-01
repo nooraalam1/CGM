@@ -5,8 +5,10 @@ int main(){
 	int a = DETECT, b;
 	initgraph(&a,&b,(char*)"");
 	
-	lineto(100,100);
-	lineto(250,100);
+	moveto(100,100);
+	lineto(100,200);
+	lineto(200,200);
+	line(100,100,200,200);
 	
 	getch();
 	closegraph;
